@@ -1,0 +1,52 @@
+.formulario{
+	margin-left: 30px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.formulario .row #form-cont{
+	margin-top: 50px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px 20px 0px 20px;
+    background: #fafafa;
+    border: 1px solid #f1f1f1;
+}
+
+.tit-form{
+	font-family: 'Ubuntu',serif;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color:#FF4500;
+
+}
+
+.formulario .row .col-md-6 ul{
+	color: #8B0000;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	line-height:18px;
+
+}
+
+.actions{
+	margin-bottom: 30px;
+}
+
+.col-md-6 .texto-cont{
+	margin-top: 100px;
+}
+.texto-cont img{
+	margin-top: 40px;
+	
+}
+
+.img-cont{
+	-moz-box-shadow: 5px 5px 8px #999;
+	-webkit-box-shadow: 5px 5px 8px #999;
+	-o-box-shadow: 5px 5px 8px #999;
+	-ms-box-shadow: 5px 5px 8px #999;
+}

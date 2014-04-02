@@ -1,0 +1,23 @@
+#correa{
+	margin-top: 100px;
+	
+}
+
+#staff{
+	
+	line-height:25px;
+	padding-left: 50px;
+}
+#staff h6{
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+#staff p{
+	margin-left: 50px;
+
+}
+
+.relleno{
+	background-color: red;
+}

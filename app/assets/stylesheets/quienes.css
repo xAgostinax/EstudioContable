@@ -1,0 +1,48 @@
+
+#quienes{
+margin-top:5px;
+margin-bottom:92px;
+
+
+}
+.lead{
+	color: #FFF;
+}
+#quienes h2{font-family: 'Ubuntu',serif;font-size:30px; color:#000000; padding-bottom:15px; font-weight:300;margin-top: 20px;}
+
+#quienes h3{
+	color: #FF4500;
+	/*font-weight: bold;*/
+	font-family: 'Ubuntu',serif;
+}
+.col-lg-6{
+	padding-bottom: 25px;
+}
+.cycle-slideshow img{
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-box-shadow: 5px 5px 8px #999;
+	-webkit-box-shadow: 5px 5px 8px #999;
+	-o-box-shadow: 5px 5px 8px #999;
+	-ms-box-shadow: 5px 5px 8px #999;
+}
+
+.fila .row .col-md-12{
+	
+
+}
+
+p{
+color: #696969;
+font-family: 'Ubuntu',serif;
+
+line-height:18px;
+
+}
+
+#fotos{
+	margin-top: 15px;
+}
+

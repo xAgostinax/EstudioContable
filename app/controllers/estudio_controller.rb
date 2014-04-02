@@ -1,0 +1,3 @@
+class EstudioController < ApplicationController
+
+end
