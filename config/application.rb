@@ -64,13 +64,14 @@ module EstContable
   :port                 => 587,
   :domain               => 'hotmail.com',
   :user_name            => 'agostina_rodriguez@hotmail.com',
-  :password             => 'x29ilovepunk29x',
+  :password             => 'secret',
   :authentication       => 'plain',
   :enable_starttls_auto => true  }
 
 config.action_mailer.default_url_options = {
   :host => "hotmail.com"
 }
-
+config.assets.enabled = true
+config.assets.paths << "#{Rails.root}/app/assets/fonts"
   end
 end

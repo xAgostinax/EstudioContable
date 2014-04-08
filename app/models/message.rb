@@ -11,7 +11,7 @@ class Message
   validates :body, :presence => {:message => "* Debe escribir su consulta"}
 
   #instale gem 'validates_email_format_of' #
-  validates :email, email_format: { message: "* Ingrese su email correctamente" }
+  validates :email, :presence => true, email_format: { message: "* Ingrese su email correctamente" }
   
   def initialize(attributes = {})
     attributes.each do |name, value|

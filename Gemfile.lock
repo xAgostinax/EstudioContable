@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/seyhunak/twitter-bootstrap-rails.git
+  revision: cdc2facf19c9a08d2a72fa281b4be3ed72fbee03
+  branch: bootstrap3
+  specs:
+    twitter-bootstrap-rails (3.1.1)
+      actionpack (>= 3.1)
+      execjs
+      rails (>= 3.1)
+      railties (>= 3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,6 +50,10 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    formtastic (2.2.1)
+      actionpack (>= 3.0)
+    formtastic-bootstrap (3.0.0)
+      formtastic (>= 2.2)
     hike (1.2.3)
     i18n (0.6.1)
     journey (1.0.4)
@@ -105,9 +120,11 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  formtastic-bootstrap
   jquery-rails
   mysql2
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
+  twitter-bootstrap-rails!
   uglifier (>= 1.0.3)
   validates_email_format_of

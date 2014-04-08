@@ -24,6 +24,11 @@ gem 'jquery-rails'
 
 gem 'validates_email_format_of'
 
+#gem 'simple_form'
+gem 'formtastic-bootstrap'
+
+gem 'twitter-bootstrap-rails',:git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'bootstrap3'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
