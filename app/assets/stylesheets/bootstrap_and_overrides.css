@@ -60,6 +60,14 @@ h1,.lead{
 	
 }
 
+#footer p {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	color: #333;
+	font: 9px Arial, sans-serif;
+}
+
 .raw .col-md-8 h3{
 	font-size: 10px;
 	color: #000000;
@@ -78,7 +86,7 @@ h1,.lead{
 	padding-top: 8px;
 }
 .raw .col-md-4 a{
-	font-size: 15px;
+	font-size: 10px;
 }
 
 

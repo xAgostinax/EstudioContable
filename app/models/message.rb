@@ -5,13 +5,17 @@ class Message
   extend ActiveModel::Naming
 
   attr_accessor :name, :email, :subject, :body
-  
-  validates :name, :presence => {:message => "* Debe ingresar un nombre"}
-  #validates :email, :presence => {:message => "*Debe ingresar un email"}
-  validates :body, :presence => {:message => "* Debe escribir su consulta"}
 
+  validates :name, :presence => {:message => " Por favor, ingrese su nombre."}
+  validates :body, :presence => {:message => " Por favor, ingrese su consulta."}
+  validates :email, :presence => {:message => " Por favor, ingrese su edmail."}
+  
+  validates_length_of :name, {:minimum => 3, message: "Como minimo 3 caracteres."}
+  validates_length_of :body, :minimum => 10;
+
+  
   #instale gem 'validates_email_format_of' #
-  validates :email, :presence => true, email_format: { message: "* Ingrese su email correctamente" }
+  validates :email, email_format: { message: " Ingrese su email correctamente" }
   
   def initialize(attributes = {})
     attributes.each do |name, value|

@@ -1,7 +1,7 @@
 
 #quienes{
 margin-top:5px;
-margin-bottom:92px;
+margin-bottom:75px;
 
 
 }
@@ -14,6 +14,8 @@ margin-bottom:92px;
 	color: #FF4500;
 	/*font-weight: bold;*/
 	font-family: 'Ubuntu',serif;
+	padding-bottom: 0px;
+	font-size: 18px;
 }
 .col-lg-6{
 	padding-bottom: 25px;
@@ -37,7 +39,7 @@ margin-bottom:92px;
 p{
 color: #696969;
 font-family: 'Ubuntu',serif;
-
+padding: 0;
 line-height:18px;
 
 }

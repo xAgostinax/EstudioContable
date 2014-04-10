@@ -12,7 +12,10 @@
     </div>   
   </div> 
 </div>
-
+  <div class="flash">
+    <%= bootstrap_flash%>
+    <br>
+  </div>
 
 <div class="container" > 
       <div class="row">
@@ -28,23 +31,26 @@
 </div>
 
 <div class="formulario">
+
+  
   <div class="row">
+    
     <div id="form-cont" class="col-md-6">
+
         <p class="tit-form">Formulario de contacto</p>
         
 
   <%= semantic_form_for @message, :url => contact_path do |f| %>
-  <%= f.inputs do %>
-    <%= f.input :name%>
-    <%= f.input :email %>
-    <%= f.input :subject%>
-    <%= f.input :body,:as => 'text'%>
-    <%= f.actions do %>
-    <%= f.action(:submit) %>
+    <%= f.inputs do %>
+      <%= f.input :name%>
+      <%= f.input :email %>
+      <%= f.input :subject%>
+      <%= f.input :body,:as => 'text', :input_html => { :cols => 7, :rows => 15 }%>
+      <%= f.actions do %>
+        <%= f.action :submit,:label => "Enviar", :button_html => { :class => "btn btn-warning"} %>
+      <% end %>
+    <% end %>
   <% end %>
-
-  <% end %>
-<% end %>
 </div>
 
   <div class="col-md-6">
