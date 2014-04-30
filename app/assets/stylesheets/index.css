@@ -6,6 +6,11 @@
 	/*font-style: ;*/
 	font-style: italic;
 	margin-bottom: 150px;
+
+}
+
+#col-1{
+	text-align: center;
 }
 .img-circle{
 	
@@ -13,12 +18,35 @@
 }
 
 figcaption{
-	margin-left: 65px;
-	color: black;
+	text-align: center;
 	margin-bottom: 100px;
 }
 
-#row-home .row{
-	margin-bottom: 100px;
+@media (max-width: 990px) { 
+	.col-md-2 img{
+		display: none;
+		
+	}
+}
+@media (max-width: 480px) { 
+.col-md-6 p img{
+		max-width: 220px;
+        max-height: 320px;
+	}
+}
+
+@media (max-width: 320px) { 
+.col-md-6 p img{
+		max-width: 200px;
+        max-height: 280px;
+	}
+}
+
+@media (max-width: 240px) { 
+	.col-md-6 p img{
+		max-width: 145px;
+        max-height: 210px;
+	}
+	
 }
 

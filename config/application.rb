@@ -62,14 +62,14 @@ module EstContable
   config.action_mailer.smtp_settings = {
   :address              => "smtp.live.com",
   :port                 => 587,
-  :domain               => 'hotmail.com',
-  :user_name            => 'agostina_rodriguez@hotmail.com',
-  :password             => 'secret',
+  :domain               => 'outlook.com.ar',
+  :user_name            => 'fcestudiocontable@outlook.com.ar',
+  :password             => ENV["OUTLOOK_PASSWORD_DEV"],
   :authentication       => 'plain',
   :enable_starttls_auto => true  }
 
 config.action_mailer.default_url_options = {
-  :host => "hotmail.com"
+  :host => "outlook.com.ar"
 }
 config.assets.enabled = true
 config.assets.paths << "#{Rails.root}/app/assets/fonts"

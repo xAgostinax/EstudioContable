@@ -29,6 +29,7 @@ gem 'formtastic-bootstrap'
 
 gem 'twitter-bootstrap-rails',:git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'bootstrap3'
 
+gem 'pry'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

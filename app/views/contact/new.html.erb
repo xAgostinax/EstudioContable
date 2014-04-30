@@ -42,10 +42,10 @@
 
   <%= semantic_form_for @message, :url => contact_path do |f| %>
     <%= f.inputs do %>
-      <%= f.input :name%>
-      <%= f.input :email %>
-      <%= f.input :subject%>
-      <%= f.input :body,:as => 'text', :input_html => { :cols => 7, :rows => 15 }%>
+      <%= f.input :name, :label => "Nombre" %>
+      <%= f.input :email,:label => "Email" %>
+      <%= f.input :subject, :label => "Asunto" %>
+      <%= f.input :body,:label => "Consulta", :as => 'text', :input_html => { :cols => 7, :rows => 15 }%>
       <%= f.actions do %>
         <%= f.action :submit,:label => "Enviar", :button_html => { :class => "btn btn-warning"} %>
       <% end %>
@@ -57,7 +57,7 @@
     <p class="texto-cont">
       Realice una consulta sobre nuestros <strong>servicios profesionales</strong> .<br>
       <br>
-      Contáctenos para obtener información sobre nuestros servicios.<br> Puede dejarnos sus datos y consulta por email y en menos de 24 horas nos pondremos en contacto con usted.
+      Contáctenos para obtener información sobre nuestros servicios.<br> Puede dejarnos sus datos y consulta por email y en menos de 24 horas nos pondremos en contacto con usted. <br>
         <img class= "img-cont" src="/assets/contacto.jpg" width="310" height="470"  alt="" class="img-responsive"/>
     </p>
   </div>
