@@ -64,7 +64,7 @@ module EstContable
   :port                 => 587,
   :domain               => 'outlook.com.ar',
   :user_name            => 'fcestudiocontable@outlook.com.ar',
-  :password             => ENV["OUTLOOK_PASSWORD_DEV"],
+  :password             => ENV["OUTLOOK_PASSWORD"],
   :authentication       => 'plain',
   :enable_starttls_auto => true  }
 
