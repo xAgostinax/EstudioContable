@@ -87,6 +87,7 @@ GEM
     mime-types (1.25.1)
     multi_json (1.9.0)
     netrc (0.7.7)
+    pg (0.17.1)
     polyglot (0.3.4)
     pry (0.9.12.6)
       coderay (~> 1.0)
@@ -156,6 +157,7 @@ DEPENDENCIES
   formtastic-bootstrap
   heroku
   jquery-rails
+  pg
   pry
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
